@@ -1,5 +1,6 @@
 # TechWorks
 Plugin for sourcemod that provide tech works.
+[AlliedMods](https://forums.alliedmods.net/showthread.php?t=315130)
 
 # Commands
 1. sm_techwoks - start/end tech works.
