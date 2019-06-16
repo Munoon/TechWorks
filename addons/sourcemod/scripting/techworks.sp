@@ -24,7 +24,7 @@ public Plugin:myinfo =
 };
 
 public OnPluginStart() {
-	RegConsoleCmd("sm_techworks", CMD_COMMAND);
+	RegAdminCmd("sm_techworks", CMD_COMMAND, ADMFLAG_GENERIC, "Command to start tech works");
 	adminImunity = CreateConVar("sm_techworks_im", "1", "Adimins immunity: 1 - Enable, 0 - Disable");
 	whenKick = CreateConVar("sm_techworks_wk", "1", "Kick 1 - On client connect, 0 - On client join team");
 	messageAboutKick = CreateConVar("sm_techworks_km", "Message about kick", "Message about kick");
