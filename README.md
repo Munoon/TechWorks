@@ -3,6 +3,7 @@ Plugin for sourcemod that provide tech works.
 [AlliedMods](https://forums.alliedmods.net/showthread.php?t=315130)
 
 # Commands
+### To have acces for this commands you need have flag "b"
 1. sm_techwoks - start/end tech works.
 2. sm_techworks *time in min* - start tech works with time. It will be showed in server name as it setted up in settings.
 
